@@ -1,8 +1,8 @@
 # MSIFile
-Used to extract information from an MSI file。使用Ctypes重写WINAPI中部分读取MSI文件信息的API，方便调用。
+Used to extract information from an MSI file。Use Ctypes to rewrite part of the API for reading MSI file information in WINAPI, which is convenient for calling.
 
 
-# 描述
-最近有Ptthon2.7提取MSI ICON的需求，使用MSIlib只能做到读取String信息，没有读取Stream信息，其实也就差一个函数，但是发现Ctypes写WinAPI只要不涉及复杂结构体的情况下也很简单。所以就重写了。
+# describe
+Recently, Ptthon2.7 needs to extract MSI ICON. Using MSIlib can only read String information, not Stream information. In fact, there is only one function missing, but I found that Ctypes can write WinAPI as long as it does not involve complex structures. Simple. So it was rewritten.
 
 
